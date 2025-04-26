@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokémon Discord Bot</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e2f;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        h1, h2 {
+            color: #ffcc00;
+        }
+        a.button {
+            display: inline-block;
+            padding: 12px 24px;
+            margin-top: 20px;
+            background-color: #7289da;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .commands {
+            margin-top: 30px;
+        }
+        .command {
+            margin-bottom: 20px;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Pokémon Discord Bot</h1>
+        <p>Witaj! Ten bot to idealny dodatek na Twój serwer Discord, jeśli lubisz Pokémony. Poniżej znajdziesz opis wszystkich dostępnych funkcji i komend.</p>
+
+        <h2>📖 Komendy bota:</h2>
+        <div class="commands">
+            <div class="command">
+                <strong>!rapoke</strong>  
+                ➝ Losuje Pokémona z losowej generacji, wysyła jego obrazek, opis z Pokédexa i ciekawostkę o generacji
+                <div class="screenshot">
+                    <img src="bot_ra.png" alt="Przykład !rapoke" style="max-width: 400px; margin-top: 10px; border-radius: 8px;">
+                </div>
+            </div>
+            <div class="command">
+                <strong>!pokefact [numer]</strong>  
+                ➝ Wyświetla ciekawostkę o podanej generacji Pokémonów (od 1 do 9).
+                <div class="screenshot">
+                    <img src="bot-fact.png" alt="Przykład !pokefact" style="max-width: 400px; margin-top: 10px; border-radius: 8px;">
+                </div>
+            </div>
+            <div class="command">
+                <strong>!guesspoke</strong>  
+                ➝ Bot wysyła obrazek losowego Pokémona. Użytkownicy mają 30 sekund na odgadnięcie nazwy. Bot gratuluje lub podaje prawidłową odpowiedź.
+            
+                <div class="screenshot">
+                    <img src="bot-guess.png" alt="Przykład !guesspoke" style="max-width: 400px; margin-top: 10px; border-radius: 8px;">
+                </div>
+            </div>
+            <div class="command">
+                <strong>!help</strong>  
+                ➝ Wyświetla listę wszystkich komend i ich opis
+                <div class="screenshot">
+                    <img src="bot_help.png" alt="Przykład !help" style="max-width: 400px; margin-top: 10px; border-radius: 8px;">
+                </div>
+            </div>
+        </div>
+
+        <a class="button" href="https://discord.com/oauth2/authorize?client_id=1365302753542406164&permissions=8&integration_type=0&scope=bot" target="_blank">➕ Dodaj bota na swój serwer</a>
+
+        <img class="footer">
+            Strona stworzona przez 1_xnix_1 — 2025
+        </div>
+        <img>
+    </div>
+</body>
+</html>
